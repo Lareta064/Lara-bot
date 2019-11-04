@@ -78,7 +78,7 @@ function valuteKeyboard() {
                 }
             })
         }
-        resolve(builder, oneTime())
+        resolve(builder.oneTime())
     })
 
 }
