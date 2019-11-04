@@ -1,0 +1,26 @@
+{
+  "name": "vk-bot",
+  "version": "1.0.0",
+  "description": "Учебный VK-bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon --exec babel-node server.js"
+  },
+  "author": "lareta064@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "config": "^3.2.4",
+    "vk-io": "^4.0.0-rc.26"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "babel-loader": "^8.0.6"
+  }
+}
