@@ -25,8 +25,6 @@ vk.updates.use(async (context, next) => {
         const valute = valutes[charCode]
 
         await context.send(`${valute.Nominal} ${valute.Name} стоит ${valute.Value} рублей`)
-    } else {
-
     }
 
     await context.send('Выбирай валюту, чтобы узнать курс', {
